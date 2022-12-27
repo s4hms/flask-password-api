@@ -6,7 +6,7 @@
 
 2. Move to directory created in above step.
 
-3. Issue `git clone`
+3. Issue `git clone git clone https://github.com/s4hms/flask-password-api`
    (if git is not installed download the repo in ZIP format using "Code" button and extract files into directory created in steps 1)
 
 4. Move to cloned/extracted directory and create a virtual environment and activate it. For more details on how to create and activate virtual environment, watch here [Windows](https://www.youtube.com/watch?v=APOPm01BVrk) and [MAC/LINUX](https://www.youtube.com/watch?v=Kg1Yvry_Ydk) accordingly.
