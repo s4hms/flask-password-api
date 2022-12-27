@@ -2,14 +2,14 @@
 
 ### <ins>Steps to setup the project<ins>:
 
-1. Create a project directory flask_password_api (any other name is also fine).
+1. Create a project directory (any name).
 
 2. Move to directory created in above step.
 
-3. Issue `git clone https://github.com/s4hms/flask-password-api`
+3. Issue `git clone git clone https://github.com/s4hms/flask-password-api`
    (if git is not installed download the repo in ZIP format using "Code" button and extract files into directory created in steps 1)
 
-4. Move to cloned/extracted directory and create a virtual environment and activate it. For more details on how to create and activate virtual environment, watch here [Windows](https://www.youtube.com/watch?v=APOPm01BVrk) and [MAC/LINUX](https://www.youtube.com/watch?v=Kg1Yvry_Ydk) accordingly.
+4. Move to cloned (flask-password-api) OR extracted (flask-password-api-main) directory and create a virtual environment and activate it. For more details on how to create and activate virtual environment, watch here [Windows](https://www.youtube.com/watch?v=APOPm01BVrk) and [MAC/LINUX](https://www.youtube.com/watch?v=Kg1Yvry_Ydk) accordingly.
 
 5. Install the required package by issuing `pip install -r requirements.txt` in the above virtual environment.
 
@@ -21,4 +21,4 @@ API documentation can be accessed at `http://localhost:5000/` once the project i
 
 API end points have be attached after `http://localhost:5000/generate?`.
 
-**Example**: `http://localhost:5000/generate?uc=2&lc=8`
+**Example**: `http://localhost:5000/generate?uc=2&lc=
