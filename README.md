@@ -21,4 +21,4 @@ API documentation can be accessed at `http://localhost:5000/` once the project i
 
 API end points have be attached after `http://localhost:5000/generate?`.
 
-**Example**: `http://localhost:5000/generate?uc=2&lc=
+**Example**: `http://localhost:5000/generate?uc=2&lc=8`
