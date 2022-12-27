@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        h1{
+            text-decoration: underline;
+            margin-left: 5vw;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+        }
+
+        .summray{
+
+            /* margin-left: 3vw; */
+            width: 40vw;
+            padding:0 1rem 1rem 1rem
+        }
+
+        .note{
+            padding:0.5rem 0.5rem 0.5rem 1rem;
+            font-weight: bold;
+            font-size: large;
+            text-decoration: underline;
+        }
+
+        .endpoint{
+            display: grid;
+            grid-template-columns: 10vw 30vw;
+            padding: 1rem;
+        }
+
+        .endpoint:first-of-type p{
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .example{
+            width: 40vw;
+            padding:2rem 1rem 1rem 1rem
+
+        }
+
+        .example p:first-of-type{
+            font-weight: bold;
+            font-size: large;
+            text-decoration: underline;
+        }
+
+        .example p {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Password Generator API Documentation</h1>
+    <p class="summray">A simple API to generate Password, consisting of Alphabets(lowercase, uppercase), numbers and special characters.</p>
+
+    <p class="note">Note:</p>
+    <p class="summray">The special characters '#', '&' and '+' have to be passed in api URL as '%23', '%26' and '%2B' respectively.</p>
+
+    <div class="endpoint">
+        <p>Endpoint</p>
+        <p class="ed">Definition</p>
+    </div>
+    <div class="endpoint">
+        <p>uc:</p>
+        <p class="ed">Number of uppercase characters in the Password.</p>
+    </div>
+    <div class="endpoint">
+        <p>lc:</p>
+        <p class="ed">Number of lowercase characters in the Password.</p>
+    </div>
+    <div class="endpoint">
+        <p>nc:</p>
+        <p class="ed">Number of numeric characters in the Password.</p>
+    </div>
+    <div class="endpoint">
+        <p>sc:</p>
+        <p class="ed">Special characters in the Password.</p>
+    </div>
+
+    <div class="example">
+        <p>Examples:</p>
+
+        <p>1) To generate Password containing 4 uppercase characters (uc), 8 lowercase characters (lc), 2 numeric characters (nc) and '^' and '#' (# has to be passed as %23) as special characters (sc): "http://localhost:5000/generate?uc=4&lc=8&nc=2&sc=^%23"</p>
+
+        <p>2) To generate Password containing 6 lowercase characters (lc), 4 numeric characters (nc) and '&' (%26) and '+' (%2B) as special characters (sc): "http://localhost:5000/generate?uc=4&lc=8&nc=2&sc=%26%2B"</p>
+        
+    </div>
+</body>
+</html>
